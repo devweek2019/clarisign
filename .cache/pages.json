@@ -8,5 +8,15 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-landing-page-js",
+        "jsonName": "landing-page-8bd",
+        "path": "/landingPage/"
+    },
+    {
+        "componentChunkName": "component---src-pages-new-page-js",
+        "jsonName": "new-page-261",
+        "path": "/newPage/"
     }
 ]

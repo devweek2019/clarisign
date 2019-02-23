@@ -104,7 +104,7 @@ class Video extends Component {
     window.history.back()
   }
 
-  toggleHidden () {
+  toggleHidden() {
     this.setState({
       isHidden: !this.state.isHidden
     })
@@ -147,30 +147,30 @@ class Video extends Component {
 
     return (<div>
       <button className="goBackLink button-style" onClick={this.goBack}>
-              Go Back
+        Go Back
             </button>
       {/* <a className='goBackLink' onClick={this.goBack}>Go Back</a> */}
       <div className="video-container">
-      <div className="center">
-            
-            
-      {!this.state.isHidden && <Webcam
-              audio={false}
-              height={350}
-              ref={this.setRef}
-              screenshotFormat="image/png"
-              width={550}
-              videoConstraints={videoConstraints}
-            />}
-            
-          </div>
+        <div className="center">
+
+
+          {!this.state.isHidden && <Webcam
+            audio={false}
+            height={350}
+            ref={this.setRef}
+            screenshotFormat="image/png"
+            width={550}
+            videoConstraints={videoConstraints}
+          />}
+
+        </div>
         <div className="previewComponent">
           <div className="preview-container-video">
-            
+
             <div className="imgPreview video-preview">{$imagePreview}</div>
           </div>
           <div className="videoButtons">
-          <button className="button-style" onClick={this.toggleHidden.bind(this)}>
+            <button className="button-style" onClick={this.toggleHidden.bind(this)}>
               Start Camera
             </button>
             <form className="video" onSubmit={e => this._handleSubmit(e)}>
@@ -186,8 +186,8 @@ class Video extends Component {
 
         </div>
       </div>
-      
-      </div>
+
+    </div>
     )
   }
 }

@@ -4,25 +4,25 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/johnathanchen/Desktop/clarisign/.cache/dev-404-page.js",
+      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/johnathanchen/Desktop/clarisign/.cache/dev-404-page.js",
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4960bdfea9ebdd98949541f24c56b9ae",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "826ee92bc948eddd68d869971b1f2a01",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin dev-404-page": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "Plugin dev-404-page",
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -47,17 +47,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "29a513106002950cf34036ad0d7398e8",
+        "contentDigest": "699e15f55cd8d585795bd9f4394d0499",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin load-babel-config": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/load-babel-config",
-      "id": "Plugin load-babel-config",
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -82,17 +82,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "53b72c3b28334dafc79bca790b6f0673",
+        "contentDigest": "cffe6a8d85888740e61fd4d2785846fc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin internal-data-bridge": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "Plugin internal-data-bridge",
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -118,17 +118,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "26f5c9c599df1f4f62e230dc697297e9",
+        "contentDigest": "75a2d3d681233fd9e522358ced757d8b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin prod-404": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "Plugin prod-404",
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -153,17 +153,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ae97160686d06a7c1fc7c4ca57e7f474",
+        "contentDigest": "19bb68692758b8e2aba4c83479f065c0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin query-runner": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "Plugin query-runner",
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -188,19 +188,54 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2fd90b64bed7fb408e27a55f6bc7fb5c",
+        "contentDigest": "7734b5c2a9bf63af8fd99ef661cd7f11",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1ec19e857a454894b4031b955281631c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.0",
+      "version": "3.0.6",
       "pluginOptions": {
         "plugins": []
       },
@@ -209,11 +244,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.0",
+        "version": "3.0.6",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -252,6 +287,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -259,29 +298,29 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           },
           {
             "name": "react-helmet",
-            "version": ">=5.1.3"
+            "version": "^5.1.3"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a3c3c3f58ad558ebe587a25e31f1ecd0",
+        "contentDigest": "a35cad34bd818f7312c8b29db6911182",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-sharp": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-transformer-sharp",
-      "id": "Plugin gatsby-transformer-sharp",
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
-      "version": "2.1.4",
+      "version": "2.1.14",
       "pluginOptions": {
         "plugins": []
       },
@@ -292,11 +331,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.4",
+        "version": "2.1.14",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -331,7 +370,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.20.2"
+            "version": "^0.21.3"
           }
         ],
         "devDependencies": [
@@ -344,6 +383,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -351,7 +394,7 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.33"
           },
           {
             "name": "gatsby-plugin-sharp",
@@ -361,30 +404,32 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4c851e4bdc3286581f63babe0e1be7bc",
+        "contentDigest": "2ef5a7683d89059534f7d929db28154c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-sharp": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-sharp",
-      "id": "Plugin gatsby-plugin-sharp",
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
-      "version": "2.0.7",
+      "version": "2.0.22",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onPreInit"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.7",
+        "version": "2.0.22",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -415,12 +460,16 @@
             "version": "^1.0.0"
           },
           {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
             "name": "imagemin",
             "version": "^6.0.0"
           },
           {
             "name": "imagemin-mozjpeg",
-            "version": "^7.0.0"
+            "version": "^8.0.0"
           },
           {
             "name": "imagemin-pngquant",
@@ -428,7 +477,7 @@
           },
           {
             "name": "imagemin-webp",
-            "version": "^4.1.0"
+            "version": "^5.0.0"
           },
           {
             "name": "lodash",
@@ -452,7 +501,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.20.2"
+            "version": "^0.21.3"
           },
           {
             "name": "svgo",
@@ -469,6 +518,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -476,25 +529,25 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "aebe479c888c6af0ea60a326e4735b34",
+        "contentDigest": "232a23d92ab5f58e2899da65eb8e9388",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-manifest": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-manifest",
-      "id": "Plugin gatsby-plugin-manifest",
+    "d25729d7-0b5e-5fe3-8c7b-127b36b6ad9d": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-manifest",
+      "id": "d25729d7-0b5e-5fe3-8c7b-127b36b6ad9d",
       "name": "gatsby-plugin-manifest",
-      "version": "2.0.5",
+      "version": "2.0.19",
       "pluginOptions": {
         "plugins": [],
         "name": "gatsby-starter-default",
@@ -511,11 +564,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.5",
+        "version": "2.0.19",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -542,7 +595,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.20.2"
+            "version": "^0.21.3"
           }
         ],
         "devDependencies": [
@@ -555,6 +608,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -562,25 +619,25 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "db211d920f7cb5241beedbf76972f7ad",
+        "contentDigest": "db0fe81e9aae21f0d4e0e6918cc2691c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-offline": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-offline",
-      "id": "Plugin gatsby-plugin-offline",
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
       "name": "gatsby-plugin-offline",
-      "version": "2.0.5",
+      "version": "2.0.24",
       "pluginOptions": {
         "plugins": []
       },
@@ -590,15 +647,15 @@
       ],
       "browserAPIs": [
         "registerServiceWorker",
-        "onPrefetchPathname",
-        "onServiceWorkerActive"
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-offline",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-offline",
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.5",
+        "version": "2.0.24",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -622,12 +679,16 @@
             "version": "^1.0.0-rc.2"
           },
           {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
             "name": "lodash",
             "version": "^4.17.10"
           },
           {
             "name": "workbox-build",
-            "version": "^3.4.1"
+            "version": "^3.6.3"
           }
         ],
         "devDependencies": [
@@ -640,6 +701,14 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -647,23 +716,23 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-beta"
+            "version": "^2.0.100"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1a7ad87068368aa8624b98faa196e40e",
+        "contentDigest": "ac1913f03307c2d8795e49be88a99038",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin default-site-plugin": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign",
-      "id": "Plugin default-site-plugin",
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "24975a91757299bb99013b0f469a332f",
       "pluginOptions": {
@@ -672,7 +741,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -782,22 +851,22 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "92d9c2462e56a9f004ba303917568093",
+        "contentDigest": "4591a7612c27093e898d592f506445b4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-page-creator",
-      "id": "Plugin gatsby-plugin-page-creator",
+    "f735ca96-6631-562b-9c10-5e276b68c6c2": {
+      "resolve": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-page-creator",
+      "id": "f735ca96-6631-562b-9c10-5e276b68c6c2",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.1",
+      "version": "2.0.8",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/johnathanchen/Desktop/clarisign/src/pages",
+        "path": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -805,11 +874,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/johnathanchen/Desktop/clarisign/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.1",
+        "version": "2.0.8",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -831,7 +900,7 @@
           },
           {
             "name": "chokidar",
-            "version": "^1.7.0"
+            "version": "^2.1.2"
           },
           {
             "name": "fs-exists-cached",
@@ -844,6 +913,10 @@
           {
             "name": "lodash",
             "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
           },
           {
             "name": "parse-filepath",
@@ -864,6 +937,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.0.5"
           }
@@ -871,16 +948,16 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e67d43c6cb7108db67f9c64738b3a232",
+        "contentDigest": "904419209403dc01ec98193b66409fbe",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -893,12 +970,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-23T22:48:42.860Z",
+      "buildTime": "2019-02-23T23:07:11.612Z",
       "id": "Site",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1ce0e6cca1dde880af3933a400d56de6",
+        "contentDigest": "dabf34fc3a62001b57f27759b5ec30da",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -907,26 +984,66 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/johnathanchen/Desktop/clarisign/src/pages/index.js",
+      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/johnathanchen/Desktop/clarisign/src/pages/index.js",
+      "pluginCreator___NODE": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "pluginCreatorId": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js",
       "id": "SitePage /",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3ca0bd851f78777bc469e65f9a984f82",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "049387b0d9a48e01bfb4631ecc98829f",
+        "description": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /newPage/": {
+      "jsonName": "new-page-261",
+      "internalComponentName": "ComponentNewPage",
+      "path": "/newPage/",
+      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/newPage.js",
+      "componentChunkName": "component---src-pages-new-page-js",
+      "context": {},
+      "pluginCreator___NODE": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "pluginCreatorId": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/newPage.js",
+      "id": "SitePage /newPage/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ad7c763c126c28e8f113b9c5c2fb7f29",
+        "description": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /landingPage/": {
+      "jsonName": "landing-page-8bd",
+      "internalComponentName": "ComponentLandingPage",
+      "path": "/landingPage/",
+      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js",
+      "componentChunkName": "component---src-pages-landing-page-js",
+      "context": {},
+      "pluginCreator___NODE": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "pluginCreatorId": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js",
+      "id": "SitePage /landingPage/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5646ad4d8215810c43322343f544fa74",
+        "description": "f735ca96-6631-562b-9c10-5e276b68c6c2",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ce96fcd3b97bed0c05176ed48db44b99"
+    "PLUGINS_HASH": "4a0f9ccf00ebe783bb72fab7f8a6e4ba"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -943,22 +1060,32 @@
     "sq--src-components-layout-js": 755544856,
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "video-69e": "847/path---video-69-e-b01-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "new-page-261": "29/path---new-page-261-f7a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "landing-page-8bd": "415/path---landing-page-8-bd-e2f-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/johnathanchen/Desktop/clarisign/.cache/dev-404-page.js": {
+    "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/johnathanchen/Desktop/clarisign/.cache/dev-404-page.js"
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js"
     },
-    "/Users/johnathanchen/Desktop/clarisign/src/pages/index.js": {
+    "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js": {
       "query": "",
-      "componentPath": "/Users/johnathanchen/Desktop/clarisign/src/pages/index.js"
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js"
+    },
+    "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/newPage.js": {
+      "query": "",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/newPage.js"
+    },
+    "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js": {
+      "query": "",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js"
     }
   },
   "staticQueryComponents": {
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
-      "componentPath": "/Users/johnathanchen/Desktop/clarisign/src/components/layout.js",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/components/layout.js",
       "id": "sq--src-components-layout-js",
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
