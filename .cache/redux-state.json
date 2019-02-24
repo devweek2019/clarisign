@@ -665,7 +665,7 @@
       "resolve": "/Users/johnathanchen/Desktop/clarisign",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "24975a91757299bb99013b0f469a332f",
+      "version": "29801bc5e5b46b94ef89714e3d4c9eca",
       "pluginOptions": {
         "plugins": []
       },
@@ -686,6 +686,10 @@
           {
             "name": "axios",
             "version": "^0.18.0"
+          },
+          {
+            "name": "bable-loader",
+            "version": "0.0.1-security"
           },
           {
             "name": "clarifai",
@@ -754,10 +758,6 @@
         ],
         "devDependencies": [
           {
-            "name": "bable-loader",
-            "version": "0.0.1-security"
-          },
-          {
             "name": "dotenv",
             "version": "^6.1.0"
           },
@@ -785,7 +785,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "92d9c2462e56a9f004ba303917568093",
+        "contentDigest": "cc99decb2899af14c8109c8226dec9b2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -891,14 +891,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-02-24T00:38:48.605Z",
+      "buildTime": "2019-02-24T00:44:38.348Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3902aa7e77f36642f4a8bbcf1cdb2272",
+        "contentDigest": "1a617591753b748e653d9bb436dc93a3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -926,7 +924,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ce96fcd3b97bed0c05176ed48db44b99"
+    "PLUGINS_HASH": "c4f1c0e412d8bfffb5259ad7c76b4325"
   },
   "componentDataDependencies": {
     "nodes": {

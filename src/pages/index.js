@@ -16,10 +16,12 @@ class Video extends Component {
     super(props)
 
     this.state = {
+      nameMatch: 'liza',
       name: 'none',
       query_format: '',
       file: '',
       imagePreviewUrl: '',
+      nameResult: 'searching',
       isHidden: false,
     }
   }
@@ -30,6 +32,7 @@ class Video extends Component {
     e.preventDefault()
     this.capture()
 
+    // capture
     const url = this.webcam.getScreenshot()
     
     // var url = this.state.imagePreviewUrl
@@ -39,8 +42,12 @@ class Video extends Component {
     app.models
       .predict({id:'general'}, { base64: base64Data })
       .then(response => {
-        let result = response['outputs'][0]['data']['concepts']
-        console.log(result)
+        const result = response['outputs'][0]['data']['concepts'][0]['name']
+        console.log('return ', response['outputs'][0]['data']['concepts'])
+        this.setState({ 
+          nameResult: result
+        })
+     
 
         // Database fetch
         fetch(url)
@@ -78,6 +85,7 @@ class Video extends Component {
     reader.readAsDataURL(file)
   }
 
+
   setRef = webcam => {
     this.webcam = webcam
   }
@@ -99,6 +107,26 @@ class Video extends Component {
     })
   }
 
+  resultTitle() {
+    if (this.state.nameResult == "searching") {
+      return "📦 Package for Liza 📦"
+    } else if (this.state.nameResult == 'liza') {
+      return "Success!"
+    } else {
+      return "Receiver does not match."
+    }
+  }
+
+  resultColor() {
+    if (this.state.nameResult == "searching") {
+      return "title"
+    } else if (this.state.nameResult == 'liza') {
+      return "green"
+    } else {
+      return "red"
+    }
+  }
+
   render() {
     const videoConstraints = {
       width: 2280,
@@ -116,51 +144,43 @@ class Video extends Component {
           src={imagePreviewUrl}
         />
       )
-    } else {
-      $imagePreview = (
-        <img
-          className="video-preview"
-          id="video_upload_preview"
-          src="http://placehold.it/100x100"
-          alt="your image"
-        />
-      )
-    }
+    } 
 
     return (<div>
       <div className="video-container">
-      <div className="center">
-            
-            
-      {!this.state.isHidden && <Webcam
-              audio={false}
-              height={350}
-              ref={this.setRef}
-              screenshotFormat="image/png"
-              width={550}
-              vnpmideoConstraints={videoConstraints}
-            />}
-            
-          </div>
-        <div className="previewComponent">
-          <div className="preview-container-video">
-            
-            <div className="imgPreview video-preview">{$imagePreview}</div>
-          </div>
-          <div className="videoButtons">
-            <form className="video" onSubmit={e => this._handleSubmit(e)}>
-              <button
-                className="button-style"
-                type="submit"
-                onClick={e => this._handleSubmit(e)}
-              >
-                Capture Image
-              </button>
-            </form>
-          </div>
+        <div className="center">
+        <h1 class={this.resultColor()}>{this.resultTitle()}</h1>
+              
+        {!this.state.isHidden && <Webcam
+                audio={false}
+                height={350}
+                ref={this.setRef}
+                screenshotFormat="image/png"
+                width={550}
+                vnpmideoConstraints={videoConstraints}
+              />}
+              
+            </div>
+          <div className="previewComponent">
+            <div className="preview-container-video">
+              
+              <div className="imgPreview video-preview">{$imagePreview}</div>
+            </div>
+            {/* shows result */}
+            <div className="videoButtons">
+              <form className="video" onSubmit={e => this._handleSubmit(e)}>
+                <button
+                  className="button-style"
+                  type="submit"
+                  onClick={e => this._handleSubmit(e)}
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
 
+          </div>
         </div>
-      </div>
       
       </div>
     )
