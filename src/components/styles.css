@@ -173,3 +173,8 @@ label.button-style {
 .red {
   color: red;
 }
+
+.box {
+  height:500px;
+  width: 500px;
+}

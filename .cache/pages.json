@@ -5,6 +5,16 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-pages-collin-js",
+        "jsonName": "collin-524",
+        "path": "/collin/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-main-js",
         "jsonName": "main-653",
         "path": "/main/"
@@ -15,9 +25,9 @@
         "path": "/newPage/"
     },
     {
-        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-        "jsonName": "offline-plugin-app-shell-fallback-a30",
-        "path": "/offline-plugin-app-shell-fallback/"
+        "componentChunkName": "component---src-pages-sign-up-js",
+        "jsonName": "sign-up-ed0",
+        "path": "/signUp/"
     },
     {
         "componentChunkName": "component---src-pages-signature-js",
