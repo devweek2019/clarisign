@@ -1,12 +1,14 @@
 import React from 'react'
 import Landing from '../components/Landing'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
+
+
+// import Helmet from 'react-helmet'
 const App = () => {
   return (
     <div>
 
-      <Link to="/signature/">
+      <Link to="/PreSignupPage/">
         <Landing />
 
       </Link>

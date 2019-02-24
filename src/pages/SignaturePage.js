@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import SignaturePad from '../signatureSrc/SignatureCanvas'
-import styles from './styles.css'
+import signaturePageCss from './signaturePage.module.css'
 import { Link } from 'gatsby'
 
-class Signature extends React.Component {
+class SignaturePage extends React.Component {
   // state = { trimmedDataURL: null }
   constructor(props) {
     super(props)
@@ -16,30 +16,30 @@ class Signature extends React.Component {
   clear = () => {
     this.sigPad.clear()
   }
-  trim = () => {
-    this.setState({
-      trimmedDataURL: this.sigPad.getTrimmedCanvas()
-        .toDataURL('image/png')
-    })
-  }
+  // trim = () => {
+  //   this.setState({
+  //     trimmedDataURL: this.sigPad.getTrimmedCanvas()
+  //       .toDataURL('image/png')
+  //   })
+  // }
   render() {
 
     let { trimmedDataURL } = this.state
     return (
-      <div className={styles.container}>
-        <div className={styles.sigContainer}>
-          <SignaturePad canvasProps={{ className: styles.sigPad }}
+      <div className={signaturePageCss.container}>
+        <div className={signaturePageCss.sigContainer}>
+          <SignaturePad canvasProps={{ className: signaturePageCss.sigPad }}
             ref={(ref) => { this.sigPad = ref }} />
         </div>
         <div>
           <Link to='/main/'>
-            <button className={styles.buttons} onClick={this.clear}>
+            <button className={signaturePageCss.buttons} onClick={this.clear}>
               Submit
             </button>
           </Link>
         </div>
         {trimmedDataURL
-          ? <img className={styles.sigImage}
+          ? <img alt="placeholder" className={signaturePageCss.sigImage}
             src={trimmedDataURL} />
           : null}
       </div>
@@ -47,5 +47,5 @@ class Signature extends React.Component {
   }
 }
 
-export default Signature
+export default SignaturePage
 

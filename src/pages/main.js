@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import Webcam from 'react-webcam'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import Clarifai from 'clarifai'
 
@@ -108,9 +108,9 @@ class Video extends Component {
   }
 
   resultTitle() {
-    if (this.state.nameResult == "searching") {
+    if (this.state.nameResult === "searching") {
       return "📦 Package for Liza 📦"
-    } else if (this.state.nameResult == 'liza') {
+    } else if (this.state.nameResult === 'liza') {
       return "🎉 Success 🎉"
     } else {
       return "Receiver does not match "
@@ -118,9 +118,9 @@ class Video extends Component {
   }
 
   resultColor() {
-    if (this.state.nameResult == "searching") {
+    if (this.state.nameResult === "searching") {
       return "title"
-    } else if (this.state.nameResult == 'liza') {
+    } else if (this.state.nameResult === 'liza') {
       return "green"
     } else {
       return "red"
@@ -142,6 +142,7 @@ class Video extends Component {
           className="video-preview"
           id="video_upload_preview"
           src={imagePreviewUrl}
+          alt="placeholder'"
         />
       )
     }

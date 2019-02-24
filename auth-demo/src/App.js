@@ -28,7 +28,7 @@ class App extends Component {
     var url = this.state.imagePreviewUrl
     var base64Data = url.split('base64,')[1];
 
-    app.models.predict("e466caa0619f444ab97497640cefc4dc", {base64: base64Data}).then(
+    app.models.predict("e466caa0619f444ab97497640cefc4dc", { base64: base64Data }).then(
       response => {
         const res = response["outputs"]['0']['data']['regions']['0']['data']
         const celebName = res['face']['identity']['concepts']['0']['name']
@@ -37,7 +37,7 @@ class App extends Component {
           name: celebName
         });
       }
-      
+
     );
 
     console.log('handle uploading-', base64Data);
@@ -59,34 +59,34 @@ class App extends Component {
     reader.readAsDataURL(file)
   }
 
-  render () {
+  render() {
 
-    let {imagePreviewUrl} = this.state;
-      let $imagePreview = null;
-      if (imagePreviewUrl) {
-        $imagePreview = (<img src={imagePreviewUrl} />);
-      } else {
-        $imagePreview = (<img id="image_upload_preview" src="http://placehold.it/100x100" alt="your image" />);
-      }
-  
-      return (
-        <div className="form-container">
-          <h1>{this.state.name}</h1>
-          <div className="previewComponent">
-            <form onSubmit={(e)=>this._handleSubmit(e)}>
-              <input className="fileInput" 
-                type="file" 
-                onChange={(e)=>this._handleImageChange(e)} />
-              <button className="submitButton" 
-                type="submit" 
-                onClick={(e)=>this._handleSubmit(e)}>Upload Image</button>
-            </form>
-            <div className="imgPreview">
-              {$imagePreview}
-            </div>
+    let { imagePreviewUrl } = this.state;
+    let $imagePreview = null;
+    if (imagePreviewUrl) {
+      $imagePreview = (<img alt="placeholder" src={imagePreviewUrl} />);
+    } else {
+      $imagePreview = (<img alt="placeholder" id="image_upload_preview" src="http://placehold.it/100x100" alt="your image" />);
+    }
+
+    return (
+      <div className="form-container">
+        <h1>{this.state.name}</h1>
+        <div className="previewComponent">
+          <form onSubmit={(e) => this._handleSubmit(e)}>
+            <input className="fileInput"
+              type="file"
+              onChange={(e) => this._handleImageChange(e)} />
+            <button className="submitButton"
+              type="submit"
+              onClick={(e) => this._handleSubmit(e)}>Upload Image</button>
+          </form>
+          <div className="imgPreview">
+            {$imagePreview}
           </div>
         </div>
-      )
+      </div>
+    )
   }
 }
 
