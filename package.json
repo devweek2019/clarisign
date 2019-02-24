@@ -21,7 +21,10 @@
     "react-helmet": "^5.2.0",
     "react-number-format": "^4.0.3",
     "react-render-html": "^0.6.0",
-    "react-webcam": "^1.0.4"
+    "react-signature-canvas": "^1.0.1",
+    "react-webcam": "^1.0.4",
+    "signature_pad": "^3.0.0-beta.3",
+    "trim-canvas": "^0.1.2"
   },
   "keywords": [
     "gatsby"

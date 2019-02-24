@@ -18,5 +18,10 @@
         "componentChunkName": "component---src-pages-new-page-js",
         "jsonName": "new-page-261",
         "path": "/newPage/"
+    },
+    {
+        "componentChunkName": "component---src-pages-signature-js",
+        "jsonName": "signature-d44",
+        "path": "/signature/"
     }
 ]
