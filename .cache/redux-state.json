@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "826ee92bc948eddd68d869971b1f2a01",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -982,17 +973,35 @@
       "siteMetadata": {
         "title": "Networq"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-24T01:42:48.943Z",
+      "buildTime": "2019-02-24T04:57:26.422Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "07cf0c7d2cedfc7c3a3e4c9c7ac2ad6b",
+        "contentDigest": "0912fe7edb543f289de79e5dbaaccd1b",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "67b07c49759831bca9187598b7ce9077",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
         "owner": "internal-data-bridge"
       }
     },
@@ -1101,13 +1110,10 @@
     "landing-page-8bd": "415/path---landing-page-8-bd-e2f-NZuapzHg3X9TaN1iIixfv1W23E",
     "index-2-fbc": "172/path---index-2-fbc-4fb-NZuapzHg3X9TaN1iIixfv1W23E",
     "main-653": "516/path---main-653-f6d-NZuapzHg3X9TaN1iIixfv1W23E",
-    "signature-d44": "511/path---signature-d-44-e92-NZuapzHg3X9TaN1iIixfv1W23E"
+    "signature-d44": "511/path---signature-d-44-e92-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js"
-    },
     "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js"
@@ -1123,6 +1129,10 @@
     "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/signature.js": {
       "query": "",
       "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/signature.js"
+    },
+    "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
