@@ -893,12 +893,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-23T22:48:42.860Z",
+      "buildTime": "2019-02-23T23:04:52.182Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1ce0e6cca1dde880af3933a400d56de6",
+        "contentDigest": "151950bac2163db2414ab4d4f2dae9a1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

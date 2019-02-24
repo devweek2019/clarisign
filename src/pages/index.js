@@ -20,11 +20,6 @@ class Video extends Component {
       query_format: '',
       file: '',
       imagePreviewUrl: '',
-      email: '',
-      twitter: '',
-      city: '',
-      phone: '',
-      state: '',
       isHidden: false,
     }
   }
@@ -34,43 +29,30 @@ class Video extends Component {
   _handleSubmit(e) {
     e.preventDefault()
     this.capture()
-    // TODO: do something with -> this.state.file
-    var url = this.state.imagePreviewUrl
+
+    const url = this.webcam.getScreenshot()
+    
+    // var url = this.state.imagePreviewUrl
+
     var base64Data = url.split('base64,')[1]
 
     app.models
-      .predict('7069c9a5c849450dab960d7329f4cdfd', { base64: base64Data })
+      .predict({id:'general'}, { base64: base64Data })
       .then(response => {
-        const res = response['outputs']['0']['data']['regions']['0']['data']
-        const celebName = res['face']['identity']['concepts']['0']['name']
+        let result = response['outputs'][0]['data']['concepts']
+        console.log(result)
 
-        this.setState({
-          name: celebName,
-        })
-
-        var formatted = celebName.split(' ')
-        formatted = formatted.join('%20')
-        var url = '/.netlify/functions/cards-read/' + formatted
-        console.log('url produced: ', url)
-        console.log(
-          'correct version: /.netlify/functions/cards-read/kayne%20west'
-        )
+        // Database fetch
         fetch(url)
           .then(response => response.json())
           .then(json => {
             console.log(json)
             const res_email = json[0]['data']['email']
             const res_twitter = json[0]['data']['twitter']
-            const res_city = json[0]['data']['city']
-            const res_phone = json[0]['data']['phone']
-            const res_state = json[0]['data']['state']
 
             this.setState({
               email: res_email,
-              twitter: res_twitter,
-              city: res_city,
-              phone: res_phone,
-              state: res_state,
+              twitter: res_twitter
             })
             // console.log(json[0])
           })
@@ -146,10 +128,6 @@ class Video extends Component {
     }
 
     return (<div>
-      <button className="goBackLink button-style" onClick={this.goBack}>
-              Go Back
-            </button>
-      {/* <a className='goBackLink' onClick={this.goBack}>Go Back</a> */}
       <div className="video-container">
       <div className="center">
             
@@ -160,7 +138,7 @@ class Video extends Component {
               ref={this.setRef}
               screenshotFormat="image/png"
               width={550}
-              videoConstraints={videoConstraints}
+              vnpmideoConstraints={videoConstraints}
             />}
             
           </div>
@@ -170,9 +148,6 @@ class Video extends Component {
             <div className="imgPreview video-preview">{$imagePreview}</div>
           </div>
           <div className="videoButtons">
-          <button className="button-style" onClick={this.toggleHidden.bind(this)}>
-              Start Camera
-            </button>
             <form className="video" onSubmit={e => this._handleSubmit(e)}>
               <button
                 className="button-style"
