@@ -797,6 +797,10 @@
             "version": "^2.1.4"
           },
           {
+            "name": "lorem-ipsum",
+            "version": "^1.0.6"
+          },
+          {
             "name": "react",
             "version": "^16.5.1"
           },
@@ -970,33 +974,13 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-23T23:07:11.612Z",
+      "buildTime": "2019-02-24T00:02:17.783Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "dabf34fc3a62001b57f27759b5ec30da",
+        "contentDigest": "9d863a67397dc86f7a7f83ac3f1d3977",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "f735ca96-6631-562b-9c10-5e276b68c6c2",
-      "pluginCreatorId": "f735ca96-6631-562b-9c10-5e276b68c6c2",
-      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "049387b0d9a48e01bfb4631ecc98829f",
-        "description": "f735ca96-6631-562b-9c10-5e276b68c6c2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1020,22 +1004,42 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /landingPage/": {
-      "jsonName": "landing-page-8bd",
-      "internalComponentName": "ComponentLandingPage",
-      "path": "/landingPage/",
-      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js",
-      "componentChunkName": "component---src-pages-landing-page-js",
+    "SitePage /main/": {
+      "jsonName": "main-653",
+      "internalComponentName": "ComponentMain",
+      "path": "/main/",
+      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/main.js",
+      "componentChunkName": "component---src-pages-main-js",
       "context": {},
       "pluginCreator___NODE": "f735ca96-6631-562b-9c10-5e276b68c6c2",
       "pluginCreatorId": "f735ca96-6631-562b-9c10-5e276b68c6c2",
-      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js",
-      "id": "SitePage /landingPage/",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/main.js",
+      "id": "SitePage /main/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5646ad4d8215810c43322343f544fa74",
+        "contentDigest": "3423d26fdfc395fef48dc5aee7a7db83",
+        "description": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "pluginCreatorId": "f735ca96-6631-562b-9c10-5e276b68c6c2",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "049387b0d9a48e01bfb4631ecc98829f",
         "description": "f735ca96-6631-562b-9c10-5e276b68c6c2",
         "owner": "internal-data-bridge"
       }
@@ -1043,7 +1047,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4a0f9ccf00ebe783bb72fab7f8a6e4ba"
+    "PLUGINS_HASH": "f2f94fb2fe9e0e592acb8f0b6440c121"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1062,24 +1066,26 @@
     "video-69e": "847/path---video-69-e-b01-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "new-page-261": "29/path---new-page-261-f7a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "landing-page-8bd": "415/path---landing-page-8-bd-e2f-NZuapzHg3X9TaN1iIixfv1W23E"
+    "landing-page-8bd": "415/path---landing-page-8-bd-e2f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-2-fbc": "172/path---index-2-fbc-4fb-NZuapzHg3X9TaN1iIixfv1W23E",
+    "main-653": "516/path---main-653-f6d-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/.cache/dev-404-page.js"
     },
-    "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js"
-    },
     "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/newPage.js": {
       "query": "",
       "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/newPage.js"
     },
-    "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js": {
+    "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/main.js": {
       "query": "",
-      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/landingPage.js"
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/main.js"
+    },
+    "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/ykmmui/Desktop/code/hackathon/clarisign/src/pages/index.js"
     }
   },
   "staticQueryComponents": {

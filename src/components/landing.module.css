@@ -1,0 +1,14 @@
+.backdrop {
+  height: 101vh;
+  width: 101vw;
+  background-color: #5233D2;
+  text-align: center;
+  /* display: flex; */
+}
+
+.image {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin-top: 50vh
+}

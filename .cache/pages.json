@@ -10,9 +10,9 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-landing-page-js",
-        "jsonName": "landing-page-8bd",
-        "path": "/landingPage/"
+        "componentChunkName": "component---src-pages-main-js",
+        "jsonName": "main-653",
+        "path": "/main/"
     },
     {
         "componentChunkName": "component---src-pages-new-page-js",
