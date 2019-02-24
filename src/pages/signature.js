@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 import SignaturePad from '../signatureSrc/SignatureCanvas'
 import styles from './styles.css'
+import { Link } from 'gatsby'
 
 class Signature extends React.Component {
   // state = { trimmedDataURL: null }
@@ -31,12 +32,11 @@ class Signature extends React.Component {
             ref={(ref) => { this.sigPad = ref }} />
         </div>
         <div>
-          <button className={styles.buttons} onClick={this.clear}>
-            Clear
-        </button>
-          <button className={styles.buttons} onClick={this.trim}>
-            Trim
-        </button>
+          <Link to='/main/'>
+            <button className={styles.buttons} onClick={this.clear}>
+              Submit
+            </button>
+          </Link>
         </div>
         {trimmedDataURL
           ? <img className={styles.sigImage}

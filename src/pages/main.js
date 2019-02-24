@@ -16,15 +16,12 @@ class Video extends Component {
     super(props)
 
     this.state = {
+      nameMatch: 'liza',
       name: 'none',
       query_format: '',
       file: '',
       imagePreviewUrl: '',
-      email: '',
-      twitter: '',
-      city: '',
-      phone: '',
-      state: '',
+      nameResult: 'searching',
       isHidden: false,
     }
   }
@@ -34,46 +31,38 @@ class Video extends Component {
   _handleSubmit(e) {
     e.preventDefault()
     this.capture()
-    // TODO: do something with -> this.state.file
-    var url = this.state.imagePreviewUrl
+
+    // capture
+    const url = this.webcam.getScreenshot()
+
+    // var url = this.state.imagePreviewUrl
+
     var base64Data = url.split('base64,')[1]
 
     app.models
-      .predict('7069c9a5c849450dab960d7329f4cdfd', { base64: base64Data })
+      .predict({ id: 'general' }, { base64: base64Data })
       .then(response => {
-        const res = response['outputs']['0']['data']['regions']['0']['data']
-        const celebName = res['face']['identity']['concepts']['0']['name']
-
+        const result = response['outputs'][0]['data']['concepts'][0]['name']
+        console.log('return ', response['outputs'][0]['data']['concepts'])
         this.setState({
-          name: celebName,
+          nameResult: result
         })
 
-        var formatted = celebName.split(' ')
-        formatted = formatted.join('%20')
-        var url = '/.netlify/functions/cards-read/' + formatted
-        console.log('url produced: ', url)
-        console.log(
-          'correct version: /.netlify/functions/cards-read/kayne%20west'
-        )
-        fetch(url)
-          .then(response => response.json())
-          .then(json => {
-            console.log(json)
-            const res_email = json[0]['data']['email']
-            const res_twitter = json[0]['data']['twitter']
-            const res_city = json[0]['data']['city']
-            const res_phone = json[0]['data']['phone']
-            const res_state = json[0]['data']['state']
 
-            this.setState({
-              email: res_email,
-              twitter: res_twitter,
-              city: res_city,
-              phone: res_phone,
-              state: res_state,
-            })
-            // console.log(json[0])
-          })
+        // Database fetch
+        // fetch(url)
+        //   .then(response => response.json())
+        //   .then(json => {
+        //     console.log(json)
+        //     const res_email = json[0]['data']['email']
+        //     const res_twitter = json[0]['data']['twitter']
+
+        //     this.setState({
+        //       email: res_email,
+        //       twitter: res_twitter
+        //     })
+        //     // console.log(json[0])
+        //   })
       })
 
     // .then(json => this.setState({ loading: true, msg: json.msg }))
@@ -96,6 +85,7 @@ class Video extends Component {
     reader.readAsDataURL(file)
   }
 
+
   setRef = webcam => {
     this.webcam = webcam
   }
@@ -117,6 +107,26 @@ class Video extends Component {
     })
   }
 
+  resultTitle() {
+    if (this.state.nameResult == "searching") {
+      return "📦 Package for Liza 📦"
+    } else if (this.state.nameResult == 'liza') {
+      return "🎉 Success 🎉"
+    } else {
+      return "Receiver does not match "
+    }
+  }
+
+  resultColor() {
+    if (this.state.nameResult == "searching") {
+      return "title"
+    } else if (this.state.nameResult == 'liza') {
+      return "green"
+    } else {
+      return "red"
+    }
+  }
+
   render() {
     const videoConstraints = {
       width: 2280,
@@ -134,25 +144,12 @@ class Video extends Component {
           src={imagePreviewUrl}
         />
       )
-    } else {
-      $imagePreview = (
-        <img
-          className="video-preview"
-          id="video_upload_preview"
-          src="http://placehold.it/100x100"
-          alt="your image"
-        />
-      )
     }
 
     return (<div>
-      <button className="goBackLink button-style" onClick={this.goBack}>
-        Go Back
-            </button>
-      {/* <a className='goBackLink' onClick={this.goBack}>Go Back</a> */}
       <div className="video-container">
         <div className="center">
-
+          <h1 class={this.resultColor()}>{this.resultTitle()}</h1>
 
           {!this.state.isHidden && <Webcam
             audio={false}
@@ -160,7 +157,7 @@ class Video extends Component {
             ref={this.setRef}
             screenshotFormat="image/png"
             width={550}
-            videoConstraints={videoConstraints}
+            vnpmideoConstraints={videoConstraints}
           />}
 
         </div>
@@ -169,18 +166,16 @@ class Video extends Component {
 
             <div className="imgPreview video-preview">{$imagePreview}</div>
           </div>
+          {/* shows result */}
           <div className="videoButtons">
-            <button className="button-style" onClick={this.toggleHidden.bind(this)}>
-              Start Camera
-            </button>
             <form className="video" onSubmit={e => this._handleSubmit(e)}>
               <button
                 className="button-style"
                 type="submit"
                 onClick={e => this._handleSubmit(e)}
               >
-                Capture Image
-              </button>
+                Submit
+                </button>
             </form>
           </div>
 
